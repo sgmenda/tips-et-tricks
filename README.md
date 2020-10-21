@@ -23,3 +23,10 @@ Inspired by [D. J. Bernstein](https://cr.yp.to/bib/documentid.html), I have star
 ```
 head /dev/urandom | sha256sum.exe | head -c32
 ```
+
+### Latex to Markdown (and vice versa)
+
+```
+pandoc -f latex -t markdown xyz.tex > xyz.md
+pandoc -f markdown -t latex xyz.md > xyz.tex
+```
