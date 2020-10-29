@@ -14,6 +14,10 @@ To un-ignore locally
 git update-index --no-assume-unchanged [filename]
 ```
 
+### Sending Patches via Email
+
+[email + git = <3](https://git-send-email.io)
+
 ## latex
 
 ### Document IDs
@@ -30,3 +34,7 @@ head /dev/urandom | sha256sum.exe | head -c32
 pandoc -f latex -t markdown xyz.tex > xyz.md
 pandoc -f markdown -t latex xyz.md > xyz.tex
 ```
+
+## Code Indexing
+
+[SourceTrail](https://github.com/CoatiSoftware/Sourcetrail)
