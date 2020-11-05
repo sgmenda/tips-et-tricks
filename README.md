@@ -38,3 +38,13 @@ pandoc -f markdown -t latex xyz.md > xyz.tex
 ## Code Indexing
 
 [SourceTrail](https://github.com/CoatiSoftware/Sourcetrail)
+
+## Tor Browser
+
+### Where to find nightly builds
+
+```
+http://f4amtbsowhix7rrf.onion/tor-browser-builds/
+```
+
+(`tor-guest` is the username and password.)
