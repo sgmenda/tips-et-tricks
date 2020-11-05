@@ -48,3 +48,11 @@ http://f4amtbsowhix7rrf.onion/tor-browser-builds/
 ```
 
 (`tor-guest` is the username and password.)
+
+## Zips
+
+### Adding/Updating a Zip
+
+```
+jar -uf A.zip B
+```
