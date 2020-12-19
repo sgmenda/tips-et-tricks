@@ -56,3 +56,12 @@ http://f4amtbsowhix7rrf.onion/tor-browser-builds/
 ```
 jar -uf A.zip B
 ```
+
+## Firefox
+
+### Bugzilla query for sec-high and sec-critical bugs
+
+I got this handy query link from page 11 of [this report](https://github.com/iSECPartners/publications/tree/master/reports/Tor%20Browser%20Bundle).
+
+https://bugzilla.mozilla.org/buglist.cgi?j_top=OR&f1=keywords&o1=anywordssubstr&resolution=---&resolution=FIXED&classification=Client%20Software&classification=Components&o2=anywordssubstr&query_format=advanced&f2=status_whiteboard&v1=sec-high%20sec-critical&v2=sg%3Ahigh%20sg%3Acritical&list_id=10101000
+
