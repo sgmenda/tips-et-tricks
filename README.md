@@ -65,3 +65,6 @@ I got this handy query link from page 11 of [this report](https://github.com/iSE
 
 https://bugzilla.mozilla.org/buglist.cgi?j_top=OR&f1=keywords&o1=anywordssubstr&resolution=---&resolution=FIXED&classification=Client%20Software&classification=Components&o2=anywordssubstr&query_format=advanced&f2=status_whiteboard&v1=sec-high%20sec-critical&v2=sg%3Ahigh%20sg%3Acritical&list_id=10101000
 
+### Bugzilla query for unresolved bugs that block `[META] Tor Uplift: Fingerprinting Resistance`
+
+https://bugzilla.mozilla.org/buglist.cgi?bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&f1=blocked&email2=sgmenda%40uwaterloo.ca&o1=substring&resolution=---&order=Last%20Updated&emailtype2=substring&v1=1329996&classification=Client%20Software&classification=Developer%20Infrastructure&classification=Components&classification=Server%20Software&classification=Other&list_id=15530560&query_format=advanced
