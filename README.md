@@ -57,6 +57,12 @@ http://f4amtbsowhix7rrf.onion/tor-browser-builds/
 jar -uf A.zip B
 ```
 
+## Gifs
+
+### Creating a gif from mp4
+
+https://gif.ski/
+
 ## Firefox
 
 ### Bugzilla query for sec-high and sec-critical bugs
