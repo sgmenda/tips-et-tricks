@@ -18,6 +18,19 @@ git update-index --no-assume-unchanged [filename]
 
 [email + git = <3](https://git-send-email.io)
 
+## docker
+
+### Updating hostconfig.json on Windows
+
+Start a docker container
+```
+docker run -it --privileged --pid=host ubuntu nsenter -t 1 -m -u -i sh
+```
+and edit the following file
+```
+vi /var/lib/docker/containers/[CONTAINER ID]/hostconfig.json
+```
+
 ## latex
 
 ### Document IDs
