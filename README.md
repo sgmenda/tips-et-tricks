@@ -31,6 +31,12 @@ and edit the following file
 vi /var/lib/docker/containers/[CONTAINER ID]/hostconfig.json
 ```
 
+### Running a docker image without security stuff so you can gdb inside
+
+```
+docker run -dit --cap-add=SYS_PTRACE --security-opt seccomp=unconfined --security-opt apparmor=unconfined --name gem5-local [container]
+```
+
 ## latex
 
 ### Document IDs
